@@ -1,4 +1,4 @@
-import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit"
+import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { RootState } from "../../app/store";
 import { IAlbum } from "../../models/Album";
 import { getAlbumsForArtist, getAlbumTracks } from "../../services/albums.service";

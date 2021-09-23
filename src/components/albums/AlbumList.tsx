@@ -47,7 +47,7 @@ function AlbumList() {
           <div className="d-flex justify-content-start flex-wrap">
             {
               albums.map((album: IAlbum) =>
-                <div className="col-md-2 col-sm-12 col-12 mx-3 my-2 flex-fill" key={album.id}>
+                <div className="col-md-2 col-sm-12 col-12 mx-3 my-2" key={album.id}>
                   <AlbumItem album={album} handleSelectedAlbum={handleSelectedAlbum} />
                 </div>
               )
@@ -66,7 +66,7 @@ function AlbumList() {
           <div className="d-flex justify-content-start flex-wrap">
             {
               moreAlbums.map((album: IAlbum) =>
-                <div className="col-md-2 col-sm-12 col-12 mx-3 my-2 flex-fill" key={album.id}>
+                <div className="col-md-2 col-sm-12 col-12 mx-3 my-2" key={album.id}>
                   <AlbumItem album={album} handleSelectedAlbum={handleSelectedAlbum} />
                 </div>
               )

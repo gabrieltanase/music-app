@@ -33,7 +33,7 @@ function AlbumDetails() {
 
           {/* Track list */}
           <div className="row justify-content-end"
-            style={{ zIndex: 9999, backgroundColor: 'var(--bs-secondary)' }}
+            style={{ zIndex: 5, backgroundColor: 'var(--bs-secondary)' }}
           >
             <div className="col-md-10 offset-md-2">
               <TrackList tracks={tracks} releaseDate={album.release_date} />
